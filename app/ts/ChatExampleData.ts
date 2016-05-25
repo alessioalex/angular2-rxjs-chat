@@ -46,7 +46,7 @@ let initialMessages: Array<Message> = [
     sentAt: moment().subtract(4, 'minutes').toDate(),
     text: `I\'ll wait however many seconds you send to me before responding. Try sending '3'`,
     thread: tWait
-  }),
+  })
 ];
 
 export class ChatExampleData {
